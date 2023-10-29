@@ -1,9 +1,9 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import HeaderContainer from "./utils/HeaderContainer";
+import HeaderContainer from "./util/HeaderContainer";
 import './styles/style.css';
-import MainContainer from "./utils/MainContainer";
-import FooterContainer from "./utils/FooterContainer";
+import MainContainer from "./util/MainContainer";
+import FooterContainer from "./util/FooterContainer";
 
 class App extends React.Component {
     constructor(props) {

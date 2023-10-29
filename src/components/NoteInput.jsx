@@ -18,12 +18,11 @@ class NoteInput extends React.Component {
 
     onTitleChangeEventHandler(e) {
         const title = e.target.value;
-        const remaining = 50 - title.length;
-        this.setState(() => {
-            return {
-                
-            }
-        });
+
+        if (title.length <= 50) {
+            const remaining = 50 - title.length;
+            this.setState({title, remaining})
+        }
     }
 
     onTextChangeEventHandler(e) {

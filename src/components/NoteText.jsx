@@ -1,5 +1,5 @@
 import React from "react";
-import { showFormattedDate } from "../utils/index.js";
+import { showFormattedDate } from "../util/index.js";
 
 function NoteText({ title, dateTime, text }) {
     return (
